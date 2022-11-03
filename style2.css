@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+display: flex;
+align-items: center;
+}
+.nav::before{
+    content: " ";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+.nav{
+    position: relative;
+}
+.logo{
+    margin: 30px 20px;
+}
+.logo img{
+    height: 40px;
+    margin: 10px 10px;
+}
+.nav ul{
+    display: flex;
+    font-family: fantasy;
+}
+.nav ul li{
+    list-style: none;
+    font-size: 1rem;
+
+}
+.nav ul li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding:  22px; 
+    border-radius: 20px;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: rgb(0, 119, 255);
+    background-color: rgb(255, 255, 255);
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 5px 60px;
+    justify-content: center;
+    align-items: center;
+}
+#main::before{
+    content: " ";
+    background-image: url(/bkg.webp) ;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height: 64%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#main h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#main p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.headings{
+    font-size: 3rem;
+    padding: 6px;
+    font-family: cursive;
+    color: white;
+}
+
+#services{
+    margin: 30px;
+    display: flex;
+}
+
+
+#services .box{
+    border: 2px solid rgb(0, 0, 0) ;
+    padding: 30px;
+    margin: 3px 4px;
+    border-radius:24px;
+    background-color: rgb(246, 246, 246);
+}
+#services .box:hover{
+    background-color: rgb(177, 234, 255);
+
+}
+#services .box img{
+    height: 110px;
+    display: block;
+    margin: auto;
+}
+.center{
+    text-align: center;
+   
+}
+#services .box h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#services .box p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#services-container h1{
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
